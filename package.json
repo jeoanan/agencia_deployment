@@ -1,0 +1,24 @@
+{
+  "name": "agenciaviajesnode",
+  "version": "1.0.0",
+  "description": "Primer proyecto con NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Juan Ardila",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mariadb": "^2.5.5",
+    "pug": "^3.0.2",
+    "sequelize": "^6.16.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

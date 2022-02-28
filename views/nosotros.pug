@@ -1,0 +1,32 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre Nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                bloquequote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies tellus ac elit porttitor, sollicitudin mollis lorem mattis. Donec volutpat sagittis feugiat. Proin eleifend, est id volutpat blandit, augue lectus porttitor metus, id finibus dolor nibh ac purus. Donec nisi lacus, sodales ac sapien quis, dapibus semper ligula. 
+
+                p Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed eu varius orci, et fringilla lacus. Donec ut leo dapibus, fermentum orci id, dapibus ex. Curabitur sollicitudin nibh id risus ultrices dictum. Quisque porttitor mi et erat sagittis, et vestibulum nibh auctor. Duis mi augue, tincidunt sit amet iaculis non, bibendum quis lacus. 
+
+                p Nullam malesuada fermentum venenatis. Aenean vel sagittis arcu. Quisque ante magna, facilisis ut consectetur non, laoreet non mi. Suspendisse et pretium mi. Mauris rhoncus nunc in posuere bibendum. Sed vel dui urna. Ut a est justo. Proin lobortis imperdiet velit et rutrum.
+    
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4.col-12
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad" class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Nullam malesuada fermentum venenatis. Aenean vel sagittis arcu.
+
+                .col-md-4.col-12
+                    img(src="img/icono_destinos.svg", alt="icono destinos" class="img-fluid mb-4")
+                    h2.mb-4 Mejores destinos
+                    p Nullam malesuada fermentum venenatis. Aenean vel sagittis arcu.
+
+                .col-md-4.col-12
+                    img(src="img/icono_precios.svg", alt="icono precios" class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores precios
+                    p Nullam malesuada fermentum venenatis. Aenean vel sagittis arcu.

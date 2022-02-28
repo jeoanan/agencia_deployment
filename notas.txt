@@ -1,0 +1,1 @@
+/*Con espacio lee el texto con igual se pasa una variable de express a pug tambien puedes usar #{variable}*/
